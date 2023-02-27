@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.headerIndex{
+    padding-top: 20vh;
+    width: 100vw;
+    height: 60vh;    
+    background-image: url("../images/perfil.jpg");
+    border-image: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+}
+
+.nombre{
+    width: 350px;
+    margin-left: 20vw;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.ingreso{
+    width: 350px;
+    margin-left: 20vw;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.botonIngreso {
+    width: 350px;
+    margin-left: 20vw;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    background: transparent;
+    color: grey;
+    border: 2px solid grey;
+}
+
+.botonIngreso:hover{
+    background: grey;
+    color: black;
+}
+
+.headerLanding{
+    padding-top: 5vh;
+    width: 100vw;
+    height: 13vh;
+    border-bottom: solid 1px black ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenPerfil{
+    position: absolute;
+    overflow: hidden;
+    width: 15vw;
+    height: 15vw;
+    border: solid 1px black ;
+    border-radius: 100%;
+    background-image: url("../images/perfilLanding.jpg");
+    background-size: cover;
+}
+.nombreLanding{
+    width: 100vw;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+}
