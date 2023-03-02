@@ -1,5 +1,5 @@
 let nombreLanding = document.querySelectorAll(".nombreLanding")
-console.log(nombreLanding);
+
 
 function mostrar(){
     nombreLanding.forEach(element => {
@@ -13,3 +13,14 @@ function ocultar(){
     });   
 }
 
+function ver(btn){
+    console.log(btn);
+    let detalle = document.querySelector(`.${btn.id}`)
+    detalle.setAttribute('style', 'visibility: visible') 
+}
+
+function esconder(id){
+    console.log(id);
+    let detalle = document.querySelector(`.${id}`)
+    detalle.setAttribute('style', 'visibility: hidden')    
+}

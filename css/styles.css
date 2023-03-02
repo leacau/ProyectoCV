@@ -115,3 +115,16 @@ dd.clear{
     margin: 0;
     height: 15px;
 }
+
+.detalle1,
+.detalle2,
+.detalle3,
+.detalle4,
+.detalle5{
+    visibility: hidden;
+}
+
+.ver{
+    margin-left: 10px;
+    float: left;
+}
