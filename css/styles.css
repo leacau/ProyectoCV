@@ -45,14 +45,29 @@
     color: black;
 }
 
+.landingBody{
+    width: 100vw; 
+    margin: 40px auto 60px;
+    font: 16px Helvetica, Sans-Serif; 
+    line-height: 24px;
+}
+.clear { 
+    clear: both;
+}
+
 .headerLanding{
     padding-top: 5vh;
+    padding-bottom: 1vh;
     width: 100vw;
-    height: 13vh;
+    height: 10vh;
     border-bottom: solid 1px black ;
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 25vh;
+}
+p{
+    margin: 0 0 16px 0;
 }
 
 .imagenPerfil{
@@ -66,6 +81,7 @@
     background-size: cover;
 }
 .nombreLanding{
+    visibility:hidden;
     width: 100vw;
     font-size: 3rem;
     font-weight: 800;
@@ -73,4 +89,29 @@
     display: flex;
     justify-content:center;
     align-items: end;
+}
+
+
+dt{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 26px 0 0;
+    width: 150px;
+    float: left;
+    height: 100px;
+    border-right: 1px solid #999;  
+}
+
+dd{
+    width: 50vw;
+    margin-left: 30px;
+    float:left;
+}
+
+dd.clear{
+    float: none;
+    margin: 0;
+    height: 15px;
 }
